@@ -1,5 +1,5 @@
-/* Màu thương hiệu: xanh dương #0480cc + xanh lá #6cb944 lấy từ logo Hogokids. Đổi 1 dòng này để đổi màu toàn site. */
-:root{--brand:#0480cc;--m:var(--brand);--md:#0470b8;--y:#ffe08a;--bg:#f0f7fd;--g:#6cb944;--ink:#2d3b36}
+/* Màu thương hiệu: xanh dương #0082CA + xanh lá #6cb944 lấy từ logo Hogokids. Đổi 1 dòng này để đổi màu toàn site. */
+:root{--brand:#0082ca;--m:var(--brand);--md:#0073b3;--y:#ffe08a;--bg:#f0f7fd;--g:#6cb944;--ink:#2d3b36}
 *{box-sizing:border-box}body{margin:0;font-family:Nunito,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
 img{max-width:100%;height:auto;display:block}a{color:var(--md)}.wrap{max-width:1100px;margin:auto;padding:0 18px}
 header{position:sticky;top:0;background:#fffe;backdrop-filter:blur(8px);z-index:9;box-shadow:0 2px 12px #0001}
@@ -9,7 +9,7 @@ nav{display:flex;gap:4px}nav a{text-decoration:none;color:var(--ink);font-weight
 @media(max-width:760px){.mb{display:block}nav{display:none;position:absolute;top:62px;left:0;right:0;background:#fff;flex-direction:column;padding:10px 18px;box-shadow:0 8px 16px #0001}.open nav{display:flex}}
 .hero{background:linear-gradient(135deg,#e3f1fb,#fbf8ec);padding:40px 0}.hg{display:grid;gap:26px;align-items:center}@media(min-width:800px){.hg{grid-template-columns:1.1fr .9fr}}
 h1{font-size:clamp(30px,6vw,48px);line-height:1.15;margin:12px 0;font-weight:900}h1 em{font-style:normal;color:var(--md);background:linear-gradient(transparent 60%,var(--y) 60%)}
-.hi{border-radius:28px;box-shadow:0 16px 40px #0480cc33}.tag{display:inline-block;background:var(--y);padding:4px 14px;border-radius:20px;font-weight:800;font-size:13px}
+.hi{border-radius:28px;box-shadow:0 16px 40px #0082ca33}.tag{display:inline-block;background:var(--y);padding:4px 14px;border-radius:20px;font-weight:800;font-size:13px}
 .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.btn{display:inline-block;background:var(--md);color:#fff;text-decoration:none;font-weight:800;padding:13px 24px;border-radius:30px;border:0;font-size:16px;cursor:pointer;font-family:inherit}.btn.w{background:#fff;color:var(--md);border:2px solid var(--m)}.btn.z{background:#0068ff}
 .t{text-align:center;font-size:30px;font-weight:900;margin:44px 0 22px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}@media(min-width:800px){.grid{grid-template-columns:repeat(4,1fr)}}
 .card{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 6px 20px #0000000f;text-decoration:none;color:var(--ink);transition:.2s}.card:hover{transform:translateY(-4px)}.card h3{margin:10px 12px 0;font-size:16px}.card p{margin:2px 12px 14px;font-size:13px;color:#6a7a74}
